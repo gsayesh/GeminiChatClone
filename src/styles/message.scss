@@ -1,0 +1,31 @@
+.message {
+  // background-color: gray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  // border-bottom: 1px solid gray;
+  font-family: 'Poppins';
+  margin: auto 20px;
+
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    > span {
+      font-weight: 500;
+    }
+    > img {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+    }
+  }
+
+  p {
+    pre {
+      font-family: 'Poppins';
+      font-size: 16px;
+      text-wrap: wrap;
+    }
+  }
+}
