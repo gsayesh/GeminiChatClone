@@ -24,6 +24,7 @@ export function InputFrame({value, getText, onSubmit}:InputFrameProps) {
         autoComplete="off"
         id="text"
         value={value}
+        spellCheck="false"
         onChange={event => getText(event.target.value)}
       />
       <button type="submit">Enviar</button>

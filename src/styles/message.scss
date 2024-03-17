@@ -5,9 +5,10 @@
   gap: 10px;
   // border-bottom: 1px solid gray;
   font-family: 'Poppins';
-  margin: auto 20px;
+  margin: 20px 20px;
 
   .title {
+    user-select: none;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -21,11 +22,11 @@
     }
   }
 
-  p {
+  div {
     pre {
       font-family: 'Poppins';
       font-size: 16px;
-      text-wrap: wrap;
+      text-wrap: wrap; 
     }
   }
 }

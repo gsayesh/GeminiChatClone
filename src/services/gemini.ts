@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY as string)
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY_GEMINI as string)
 const model = genAI.getGenerativeModel({model: "gemini-pro"})
 const chat = model.startChat({})
 

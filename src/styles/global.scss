@@ -1,5 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow: hidden;
+
+  background-color: var(--bg-color);
+  color: var(--font-color);
+
+  --bg-color: white;
+  --font-color: black;
+  
+  --btn-darkmode-bg-color: white;
+  --btn-darkmode-font-color: #1E1E1E;
+}
+
+.darkmode {
+  --bg-color: #1E1E1E;
+  --font-color: whitesmoke;
+  
+  --btn-darkmode-bg-color: #1E1E1E;
+  --btn-darkmode-font-color: white;
 }
